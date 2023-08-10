@@ -1,0 +1,198 @@
+Reset some default styles
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* General styles */
+body {
+ font-family: Arial, sans-serif;
+ background-color: lightblue;
+}
+
+.container {
+ max-width: 1800px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+ margin-top: -10px;
+ margin-left: -10px;
+ margin-right: -10px;
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+ background-color: #333;
+ 
+}
+a:hover{
+ color: blue;
+ font-size: 18px;
+ transition: font-size 0.3s ease;
+ /* background-color: blueviolet; */
+}
+
+ nav ul li a {
+ text-decoration: none;
+ color:white;
+ padding: 10px;
+}
+
+
+
+/* Hero section styles */
+.hero {
+ background-image: url('school\ logo.jpg');
+ margin-left: -10px;
+ margin-right: -10px;
+ margin-top: -16px;
+ background-size: cover;
+ background-position: center;
+ height: 400px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+}
+
+.hero-content {
+ text-align: center;
+}
+
+.hero h1 {
+ font-size: 50px;
+ margin-bottom: 20px;
+ color:rgb(2, 2, 130);
+ font-weight: bolder;
+}
+
+.hero h1:hover{
+ font-size: 55px;
+ transition: font-size 0.8s ease;
+ color: blue;
+}
+
+.hero p { 
+ color:black;
+ font-family: cursive;
+ font-size: 25px;
+}
+.hero p:hover{
+ color: rgb(41, 2, 133);
+ font-size: 28px;
+ transition: font-size 0.3s ease;
+}
+
+.cta-button {
+ display: inline-block;
+ background-color: #333;
+ color: #fff;
+ padding: 10px 20px;
+ border-radius: 10px;
+ text-decoration: none;
+}
+
+.cta-button:hover {
+ background-color: blue;
+ color: rgb(4, 193, 4);
+}
+
+/* About section styles */
+/* .about {
+ background-color: #f9f9f9;
+ padding: 40px 0;
+}
+
+.about-content {
+ text-align: center;
+}
+
+.about h2 {
+ font-size: 32px;
+ margin-bottom: 20px;
+}
+
+.about h2 {
+ font-size: 32px;
+ margin-bottom: 20px;
+} */
+
+#table {
+ width: 850px;
+ height: 400px;
+ table-layout: fixed;
+}
+
+#table:hover {
+ color: blue;
+ border-color: brown;
+}
+
+#real {
+background-color: lightblue;
+margin-left: -10px;
+margin-right: -10px;
+} 
+
+#table td {
+ background: #D8D8D8;
+ font-size: 15px;
+ text-align: center;
+ padding: 10px;
+ border-radius: 10px;
+ box-shadow: 0px 0px 10px #000;
+ -webkit-box-shadow: 0px 0px 10px #000;
+}
+
+h2 {
+ color: blueviolet;
+ text-decoration: underline;
+ text-align: center;
+ }
+
+/* Courses section styles */
+/* .courses {
+ background-color: #D8D8D8;
+/* background-image: url(680.jpg);
+background-repeat: no-repeat;
+background-position: center;
+backdrop-filter: 10px; */
+ /* padding: 40px 0;
+} */ 
+
+/* .courses-content {
+ text-align: center;
+}
+
+.courses h2 {
+ font-size: 32px;
+ margin-bottom: 20px;
+}
+
+.courses ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+.courses li {
+ margin-bottom: 10px;
+} */
+
+/* Footer styles */
+footer {
+ background-color: #333;
+ color: #0e036d;
+ text-align: center;
+ padding: 5px;
+ margin-left: -10px;
+ margin-right: -20px;
+ font-size: 20px;
+}
+
+
